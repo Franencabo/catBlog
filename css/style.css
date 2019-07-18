@@ -4,17 +4,141 @@
 
 /* Estilos Básicos */
 /* *************** */
+* {
+    box-sizing: border-box;
+}
 
 /* Tipografía */
+html {
+    font-family: sans-serif;
+    font-size:16px;
+    color:#727272;
+}
 
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+h3{
+    font-size: 2.5rem;
+}
+
+span {
+    font-size: 5rem;
+    font-weight: bold;
+}
+input{
+    font-size: 1.1rem;
+  
+}
 
 /* Colores */
-
+header {
+    background-color: #BFBFBF;
+    color: #FFFFFF;
+}
 
 /* Enlaces */
+a {
+    color: white;
+    text-decoration: none;
 
+}
 
 /* Botones */
+input[type="file"]#archivo{
+display:none;
+}
 
+label.archivo{
+    width: 60%;
+    margin: 0 auto;
+    height: 50px;
+    font-size:0.8rem;
+    font-weight: 900;
+    border-radius : 0.6rem;
+    color:white;
+    background-color: #727272;
+    display:inline-block;
+    cursor:pointer;
+    padding: 1rem;
+    text-align: center;
+}
+
+.enviar{
+    
+  
+    height: 50px;
+    background-color: #B93E3E;
+    border: 0;
+    border-radius: 0.6rem;
+    color:#FFFFFF;
+    font-weight: bolder;
+    font-size: 0.8rem; 
+    padding: 1rem;
+}
 
 /* Margenes */
+
+header, figure, .texto, form{
+    padding: 1.5rem;
+}
+
+figcaption{
+    margin-top:1rem;
+}
+.pregunta{
+    margin: 1rem 0;
+}
+input{
+    padding:1rem;
+}
+h5{
+    margin : 1rem;
+}
+
+
+/* Tamaños */
+header {
+    height: 70px;
+}
+
+
+input {
+    height: 50px;
+
+}
+li,input,.enviar{
+    width:100%;
+}
+.formulario_email, .enviar{
+    margin-top: 2rem;
+}
+
+
+/* Maquetacion */
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+  flex-grow: 0.2; 
+}
+.formulario{
+   
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.formulario_archivo{
+    text-align: center;
+}
+
+
+
+h5{
+    text-align:center;
+}

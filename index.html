@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Metadatos Web -->
     <meta charset="UTF-8">
@@ -28,13 +29,157 @@
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://">
 
-<!-- archivos externos -->
+    <!-- archivos externos -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 
 </head>
+
 <body>
+    <header>
+        <!-- menu -->
+      
+            <div class="barraNav__logo">
+                <img src="_assets/img/svg/logo.svg" alt="">
+            </div>
+           
+            <nav>
+                <ul class="barraNav__nav">
+                    <li class="barraNav__nav--galeria1">
+                        <a href=""></a>
+                    </li>
+
+                    <li class="barraNav__nav--galeria2">
+                        <a href=""></a>
+                    </li>
+                    <li class="barraNav__nav--trabajos">
+                        <a href=""></a></li>
+                    <li class="barraNav__nav--contactar">
+                        <a href=""></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="separador"></div>
+     <main>
     
+        <!-- gatos -->
+        <figure class="gato01">
+            <picture>
+                <source srcset="_assets/img/smartphone/gato01.png 1x,
+                    _assets/img/smartphone/gato01@2x.png 2x" media="(min-width: 320px) and (max-width: 450px)">
+                <img srcset="_assets/img/smartphone/gato01.png">
+
+            </picture>
+            <figcaption>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore amet, sit id quod dolorem
+                tempora beatae sunt voluptatum error non architecto explicabo hic tempore iusto tenetur provident
+                assumenda aut consequuntur. Labore accusantium praesentium, repellat numquam dicta voluptatem sed odio
+                aspernatur hic magnam?</figcaption>
+        </figure>
+
+        <figure class="gato02">
+            <picture>
+                <source srcset="_assets/img/smartphone/gato02.png 1x,
+                        _assets/img/smartphone/gato02@2x.png" media="(min-width: 320px) and (max-width: 450px)">
+                <img srcset="_assets/img/smartphone/gato02.png"></picture>
+            <figcaption>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore amet, sit id quod dolorem
+                tempora beatae sunt voluptatum error non architecto explicabo hic tempore iusto tenetur provident
+                assumenda aut consequuntur. Labore accusantium praesentium, repellat numquam dicta voluptatem sed odio
+                aspernatur hic magnam?</figcaption>
+        </figure>
+
+        <figure class="gato03">
+            <picture>
+                <source srcset="_assets/img/smartphone/gato03.png 1x,
+                                _assets/img/smartphone/gato03@2x.png"
+                    media="(min-width: 320px) and (max-width: 450px)">
+                <img srcset="_assets/img/smartphone/gato03.png">
+            </picture>
+            <figcaption>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore amet, sit id quod dolorem
+                tempora beatae sunt voluptatum error non architecto explicabo hic tempore iusto tenetur provident
+                assumenda aut consequuntur. Labore accusantium praesentium, repellat numquam dicta voluptatem sed odio
+                aspernatur hic magnam?</figcaption>
+        </figure>
+
+        <figure class="gato04">
+            <picture>
+                <source srcset="_assets/img/smartphone/gato04.png 1x,
+                                    _assets/img/smartphone/gato04@2x.png"
+                    media="(min-width: 320px) and (max-width: 450px)">
+                <img srcset="_assets/img/smartphone/gato04.png">
+            </picture>
+            <figcaption>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore amet, sit id quod dolorem
+                tempora beatae sunt voluptatum error non architecto explicabo hic tempore iusto tenetur provident
+                assumenda aut consequuntur. Labore accusantium praesentium, repellat numquam dicta voluptatem sed odio
+                aspernatur hic magnam?</figcaption>
+        </figure>
+   
+</main>
+<div class="separador"></div>
+
+
+<footer>
+    <section class="texto">
+        <h3 class="pregunta">¿Cómo es?</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut temporibus recusandae modi aliquid
+            tempora, necessitatibus doloremque aspernatur unde impedit dignissimos ullam eos, autem, tempore
+            perspiciatis odio amet. Ducimus hic, praesentium dolor enim placeat provident asperiores ipsam quo ea
+            dignissimos quasi optio voluptatibus excepturi officia. Quo minima eligendi distinctio maxime ipsa ullam
+            fuga quos, magni veniam ipsum voluptas! Animi, id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora tenetur possimus rerum, iusto nemo expedita amet laborum sunt distinctio totam temporibus iure hic saepe excepturi cupiditate similique, facere eius nostrum quos velit delectus eaque quidem? Magnam ducimus similique ipsam harum eveniet esse voluptas at vel, tempore assumenda, voluptate quidem ex.</p>
+    </section>
+ 
+        <!-- contactar -->
+        <form action="">
+
+            <ul class="formulario">
+                <li class="formulario_titulo">
+                    <h3>Inscríbelo en nuestra comunidad</h3>
+                </li>
+
+                
+                    <li class="formulario_felino">
+                        <label for="felino"></label>
+                        <input class="nombre_felino" type="text" id="felino" name="felino" required
+                            placeholder="Nombre del Felino">
+                    </li>
+
+                    <li class="formulario_dueno">
+                        <label for="dueno"></label>
+                        <input class="nombre_dueno" type="text" id="dueno" name="dueno" required
+                            placeholder="Nombre del Dueño">
+                    </li>
+                
+
+
+                
+                    <li class="formulario_email">
+                        <label for="email"></label>
+                        <input class="email" type="email" id="email" name="email" required placeholder="Email">
+                    </li>
+
+
+                    <li class="formulario_movil">
+                        <label for="movil"></label>
+                        <input class="movil" type="text" id="movil" name="movil" required placeholder="Móvil">
+                    </li>
+
+                   
+                    <li class="formulario_archivo">
+                            <h5>Adjuntar una foto</h5>
+                        <label for="archivo" class="archivo">Adjuntar</label>
+                        <input id="archivo" type="file" name="archivo" accept="image/jpeg">
+                    </li>
+            
+
+                <li class="formulario_enviar">
+                    <button class="enviar" type="submit">Enviar</button>
+                </li>
+            </ul>
+        </form>
+
+    </footer>
 </body>
+
 </html>
